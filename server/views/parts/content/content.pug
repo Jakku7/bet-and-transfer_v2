@@ -1,0 +1,6 @@
+div.landing-wrapper
+        h1 test
+        .buttons
+                a.button(href="/login")=t("Login")
+                if features.disableSignUp !== true
+                a.button(href="/signup")=t("Signup")

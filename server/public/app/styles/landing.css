@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header-wrapper {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+}
+
+.content-wrapper {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    min-width: 100%;
+}
