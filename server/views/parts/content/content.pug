@@ -1,6 +1,16 @@
-div.landing-wrapper
-        h1 test
-        .buttons
-                a.button(href="/login")=t("Login")
-                if features.disableSignUp !== true
-                a.button(href="/signup")=t("Signup")
+div.content-wrapper
+        div.night-part
+                img(src="/app/images/pictures/night_part.jpg")
+                div.main-name-container
+                        h1 
+                                | Fantasy 
+                                span Transfer 
+                                | Market
+                        ul
+                                li
+                                        a.button(href="/login")=t("Login")
+                                li
+                                        if features.disableSignUp !== true 
+                                        a.button(href="/signup")=t("Signup")
+        div.day-part
+                img(src="/app/images/pictures/day_part.jpg")
